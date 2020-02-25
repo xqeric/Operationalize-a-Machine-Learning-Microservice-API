@@ -1,24 +1,13 @@
-#Cloud DevOps, Scaling Microservices
-this project operationalizes a Python flask app—in a provided file, app.pythat serves out predictions about housing prices through API calls sklearn model that has been trained to predict housing prices in Boston.
+# Operationalize-a-Machine-Learning-Microservice-API
+Microservice Project [Udacity Cloud DevOps Engineer Nanodegree]
 
-This project operationalizes the working, machine learning microservice using Kubernetes and Docker which is an open-source system for automating the management of containerized applications. The following things were done in this project.
+## Project Overview
+Deploy a containerized Python flask application to serve out predictions (inference) about housing prices through API calls. It uses a a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features. 
 
-Project code was tested using linting
-Docker was used to containerize this application
-Deployed the containerized application and made a prediction
-Improved the log statements in the source code for this application
-Configured Kubernetes and create a Kubernetes cluster using minikube
-Deployed a container using Kubernetes and make a prediction
-Upload a complete Github repo with CircleCI to indicate that your code has been tested
-#Setup the Environment
-Create a virtualenv and activate it
-Run make install to install the necessary dependencies
-Running app.py
-Standalone: python app.py
-Run in Docker: ./run_docker.sh
-Run in Kubernetes: ./run_kubernetes.sh
-#Kubernetes Steps
-Setup and Configure Docker locally
-Setup and Configure Kubernetes locally
-Create Flask app in Container
-#Run via kubectl
+### Project Procedure
+* Test project code using linting
+* Complete a Dockerfile to containerize this application
+* Deploy containerized application using Docker and make a prediction
+* Configure Kubernetes and create a Kubernetes cluster
+* Deploy a container using Kubernetes and make a prediction
+* Upload a complete Github repo with CircleCI to indicate the code has been tested
